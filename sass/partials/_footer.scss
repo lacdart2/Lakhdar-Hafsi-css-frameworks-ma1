@@ -1,0 +1,25 @@
+footer {
+          background: getColour(beige);
+          flex-shrink: 0;
+          padding-top: 25px;
+          padding-bottom: 0;
+          font-size: 15px;
+          color: getColour(dark);
+          height: 50px;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .container {
+                    @extend .container-flex;
+          }
+
+          a {
+                    color: getColour(dark);
+                    text-decoration: none;
+          }
+}

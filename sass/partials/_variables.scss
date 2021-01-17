@@ -1,0 +1,18 @@
+$font-primary: "open sans", sans-serif;
+$font-links: "Archivo Narrow", sans-serif;
+
+$colours: (
+          lighter: #ffffff,
+          beige: #f4f3ee,
+          primary: #779fa1,
+          bg: #e4e4e4,
+          accent: #c32c72,
+          dark: #8d8d8d,
+          darker: #6a6a6a,
+          body: #e5e5e5,
+);
+@function getColour($colour) {
+          @return map-get($colours, $colour);
+}
+
+/* $tablet-width: 768px; */

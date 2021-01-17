@@ -1,0 +1,38 @@
+* {
+          box-sizing: border-box;
+}
+body,
+html {
+          height: 100%;
+}
+body {
+          display: flex;
+          flex-direction: column;
+          background: getColour(body);
+          margin: 0;
+          font-family: $font-primary;
+}
+
+.wrapper {
+          flex: 1 0 auto;
+}
+.container {
+          margin: 0 auto;
+
+          .container__header {
+                    padding: 2rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+          }
+}
+
+.container-flex {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+.row {
+          margin: 3rem auto 5rem auto;
+          width: 100%;
+}
